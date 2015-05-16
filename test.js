@@ -4,7 +4,7 @@ var concat = require('concat-stream')
 var queryStream = require('./')
 
 test('setup', function (t) {
-  pg.connect('postgres://localhost/postgres', function (err, client, done) {
+  pg.connect('postgres://postgres:@localhost/postgres', function (err, client, done) {
     t.error(err, 'no error')
 
     var query = 'DROP TABLE IF EXISTS test_random; CREATE TABLE test_random as SELECT generate_series(1,100) AS id, md5(random()::text) AS descr;'
@@ -19,7 +19,7 @@ test('setup', function (t) {
 test('wraps postgres query in through-stream', function (t) {
   t.plan(4)
 
-  pg.connect('postgres://localhost/postgres', function (err, client, done) {
+  pg.connect('postgres://postgres:@localhost/postgres', function (err, client, done) {
     t.error(err, 'no error')
 
     queryStream(client.query('SELECT * FROM random LIMIT 100'))
