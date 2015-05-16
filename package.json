@@ -1,0 +1,28 @@
+{
+  "name": "pg-query-readstream",
+  "version": "1.0.0",
+  "description": "Expose pg query as a readable stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timhudson/pg-query-readstream.git"
+  },
+  "author": "Tim Hudson <tim.hudson15@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timhudson/pg-query-readstream/issues"
+  },
+  "homepage": "https://github.com/timhudson/pg-query-readstream#readme",
+  "dependencies": {
+    "through2": "^0.6.5"
+  },
+  "devDependencies": {
+    "concat-stream": "^1.4.8",
+    "pg": "^4.3.0",
+    "standard": "^3.9.0",
+    "tape": "^4.0.0"
+  }
+}

@@ -1,0 +1,7 @@
+language: node_js
+node_js:
+  - "0.10"
+  - "0.12"
+  - "iojs"
+before_script:
+  - psql -c 'create database test_random;' -U postgres
