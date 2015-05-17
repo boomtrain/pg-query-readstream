@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/timhudson/pg-query-readstream.git"
+    "url": "git+https://github.com/boomtrain/pg-query-readstream.git"
   },
   "author": "Tim Hudson <tim.hudson15@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/timhudson/pg-query-readstream/issues"
+    "url": "https://github.com/boomtrain/pg-query-readstream/issues"
   },
-  "homepage": "https://github.com/timhudson/pg-query-readstream#readme",
+  "homepage": "https://github.com/boomtrain/pg-query-readstream#readme",
   "dependencies": {
     "through2": "^0.6.5"
   },
