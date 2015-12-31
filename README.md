@@ -2,7 +2,7 @@
 
 Expose pg query as a readable stream
 
-[![build status](http://img.shields.io/travis/timhudson/pg-query-readstream.svg?style=flat)](http://travis-ci.org/timhudson/pg-query-readstream)
+[![build status](http://img.shields.io/travis/boomtrain/pg-query-readstream.svg?style=flat)](http://travis-ci.org/boomtrain/pg-query-readstream)
 
 ## Example
 
