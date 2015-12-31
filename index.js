@@ -4,7 +4,7 @@ module.exports = function (query) {
   var stream = through.obj()
 
   query.on('row', stream.push.bind(stream))
-  query.on('error', stream.emit.bind('error'))
+  query.on('error', stream.emit.bind(stream, 'error'))
 
   query.on('end', function (result) {
     stream.emit('result', result)
