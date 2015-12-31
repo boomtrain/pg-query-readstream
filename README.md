@@ -1,8 +1,11 @@
 # pg-query-readstream
 
-Expose pg query as a readable stream
+[![version](https://img.shields.io/travis/boomtrain/pg-query-readstream.svg?style=flat-square)](https://travis-ci.org/boomtrain/pg-query-readstream)
+[![version](https://img.shields.io/npm/v/pg-query-readstream.svg?style=flat-square)](https://www.npmjs.com/package/pg-query-readstream)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/feross/standard)
+[![npm downloads](https://img.shields.io/npm/dm/pg-query-readstream.svg?style=flat-square)](https://www.npmjs.com/package/pg-query-readstream)
 
-[![build status](http://img.shields.io/travis/boomtrain/pg-query-readstream.svg?style=flat)](http://travis-ci.org/boomtrain/pg-query-readstream)
+Expose pg query as a readable stream
 
 ## Example
 
